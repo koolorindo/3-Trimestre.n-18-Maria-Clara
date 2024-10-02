@@ -7,24 +7,38 @@ html{
     display: flex;
     justify-content: center;
     height: auto;
-    padding: 30px;
 }
 body{
-    background-color: rgb(255, 173, 198);
+    background-color: rgb(124, 25, 25);
     color: white;
     border-radius: 5px;
-
+    text-align: center;
+    border: rgb(104, 8, 8) solid 5px;
+    
 }
-header,main{
-    background-color:  rgb(238, 214, 152);;
-    padding: 10px;
-}
-footer{
-    background: rgb(238, 214, 152);
-    padding: 0 20px 0 20px;
-    font-size: 12px;
+header{
+    background-color: rgb(255, 150, 150);
     color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+background-color: rgb(235, 93, 93);
+padding: 3rem;
+}
+.texto{
+    border: rgb(255, 167, 182) solid 2px;
+}
+
+footer{
+    background: rgb(255, 140, 140);
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+    color: rgb(146, 20, 20);
+    text-align: center;
 }
 a:hover{
-    font-size: 14px;
+    font-size: 25px;
+    
 }
