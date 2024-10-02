@@ -9,7 +9,7 @@ html{
     height: auto;
 }
 body{
-    background-color: rgb(124, 25, 25);
+    background-color:  rgb(255, 150, 150);
     color: white;
     border-radius: 5px;
     text-align: center;
@@ -18,7 +18,7 @@ body{
 }
 header{
     background-color: rgb(255, 150, 150);
-    color: black;
+    color: rgb(155, 28, 28);
     padding: 10px;
     text-align: center;
 }
@@ -29,10 +29,14 @@ padding: 3rem;
 }
 .texto{
     border: rgb(255, 167, 182) solid 2px;
+    padding: 20px;
+}
+span{
+    color: brown;
 }
 
 footer{
-    background: rgb(255, 140, 140);
+    background:  rgb(255, 150, 150);
     padding: 0 15px 0 15px;
     font-size: 15px;
     color: rgb(146, 20, 20);
